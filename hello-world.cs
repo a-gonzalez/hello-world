@@ -7,7 +7,7 @@ namespace hello.world
 	{
 		public static void Main(string[] arguments)
 		{
-			Console.WriteLine("Hello World!");
+			Console.WriteLine(ConfigurationManager.AppSettings["hello-world"]);
 			
 			int[] numbers = {4, 7, 11, 19, 23, 28, 31};
 			
